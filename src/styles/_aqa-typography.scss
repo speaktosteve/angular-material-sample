@@ -1,0 +1,47 @@
+@use "@angular/material" as mat;
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";
+
+$akqa-font-family: "Open Sans", sans-serif;
+
+$aqa-typography-config: mat.define-typography-config(
+  $headline-1:
+    mat.define-typography-level(
+      $font-family: $akqa-font-family,
+      $font-weight: 700,
+      $font-size: 2rem,
+      $line-height: 3.25rem,
+      $letter-spacing: normal,
+    ),
+  $headline-2:
+    mat.define-typography-level(
+      $font-family: $akqa-font-family,
+      $font-weight: 700,
+      $font-size: 1.75rem,
+      $line-height: 2.5rem,
+      $letter-spacing: normal,
+    ),
+  $headline-3:
+    mat.define-typography-level(
+      $font-family: $akqa-font-family,
+      $font-weight: 700,
+      $font-size: 1.5rem,
+      $line-height: 3.25rem,
+      $letter-spacing: normal,
+    ),
+  $headline-4:
+    mat.define-typography-level(
+      $font-family: $akqa-font-family,
+      $font-weight: 700,
+      $font-size: 1.25rem,
+      $line-height: 1.75rem,
+      $letter-spacing: normal,
+    ),
+  $headline-5:
+    mat.define-typography-level(
+      $font-family: $akqa-font-family,
+      $font-weight: 700,
+      $font-size: 1.125rem,
+      $line-height: 1.5rem,
+      $letter-spacing: normal,
+    ),
+);

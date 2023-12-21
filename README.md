@@ -1,3 +1,5 @@
+The main purpose of this app is to provide an example of how to use Angular Material, showing how to set a theme, global palettes and breakpoints.
+
 # MatNgSample
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.

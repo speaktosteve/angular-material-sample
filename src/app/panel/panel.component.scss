@@ -1,0 +1,6 @@
+@use "sass:map";
+@import "./../../styles/aqa-palette";
+
+.panel {
+  background-color: map.get($aqa-palette, "lightestGrey");
+}

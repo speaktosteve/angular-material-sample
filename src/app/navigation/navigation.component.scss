@@ -1,0 +1,13 @@
+@use "sass:map";
+@import "./../../styles/aqa-palette";
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: map.get($aqa-palette, aqaPurple);
+}
+
+.menu {
+  background-color: map.get($aqa-palette, white);
+}

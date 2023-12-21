@@ -1,0 +1,13 @@
+@use "sass:map";
+@import "./../../styles/aqa-palette";
+@import "./../../styles/aqa-spacers";
+
+section {
+  border: solid 1px map.get($aqa-palette, lightGrey);
+  margin: map.get($aqa-spacers, 4) 0;
+  padding: map.get($aqa-spacers, 2);
+}
+mat-grid-tile {
+  background-color: map.get($aqa-palette, lightGrey);
+  gap: map.get($aqa-spacers, 0);
+}

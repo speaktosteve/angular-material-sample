@@ -1,0 +1,25 @@
+$spacer: 1rem;
+
+$aqa-spacers: (
+  0: 0,
+  1: (
+    //4px
+    $spacer * 0.25,
+  ),
+  2: (
+    //8px
+    $spacer * 0.5,
+  ),
+  3: (
+    //16px
+    $spacer,
+  ),
+  4: (
+    //24px
+    $spacer * 1.5,
+  ),
+  5: (
+    //48px
+    $spacer * 3,
+  ),
+);

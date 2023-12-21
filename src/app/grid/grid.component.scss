@@ -1,0 +1,34 @@
+@use "sass:map";
+@import "./../../styles/aqa-palette";
+@import "./../../styles/aqa-spacers";
+@import "./../../styles/aqa-breakpoints";
+
+section {
+  border: solid 1px map.get($aqa-palette, lightGrey);
+  margin: map.get($aqa-spacers, 4) 0;
+  padding: map.get($aqa-spacers, 2);
+
+  .gridContainer {
+    .gridItem {
+      background-color: map.get($aqa-palette, lightGrey);
+      text-align: center;
+      padding: map.get($aqa-spacers, 5);
+      margin-bottom: map.get($aqa-spacers, 4);
+    }
+  }
+
+  @media only screen and (min-width: map.get($aqa-breakpoints, md)) {
+    .gridContainer {
+      display: flex;
+      justify-content: space-between;
+      gap: map.get($aqa-spacers, 3);
+
+      .gridItem {
+        background-color: map.get($aqa-palette, lightGrey);
+        width: 100%;
+        text-align: center;
+        padding: map.get($aqa-spacers, 5);
+      }
+    }
+  }
+}
